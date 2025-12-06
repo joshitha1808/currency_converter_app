@@ -84,7 +84,7 @@ class _CurrencyConverter extends State<CurrencyConverter> {
                   minimumSize: const Size(double.infinity, 50),
                   shape: const BeveledRectangleBorder(),
                 ),
-                child: const Text('convert'),
+                child: const Text('Convert'),
               ),
             ),
           ],

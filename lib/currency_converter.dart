@@ -55,7 +55,7 @@ class _CurrencyConverter extends State<CurrencyConverter> {
                 controller: textEditingController,
                 style: const TextStyle(color: Colors.black),
                 decoration: InputDecoration(
-                  hintText: 'please enter the amount in USD',
+                  hintText: 'Please enter the amount in USD',
                   hintStyle: const TextStyle(color: Colors.black),
                   prefixIcon: Icon(Icons.monetization_on_outlined),
                   prefixIconColor: Colors.black,

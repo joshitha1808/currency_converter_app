@@ -41,7 +41,7 @@ class _CurrencyConverter extends State<CurrencyConverter> {
           children: [
             // TEXT RESULT
             Text(
-              'INR ${result != 0 ? result.toStringAsFixed(3) : result.toStringAsFixed(0)}',
+              'Euro ${result != 0 ? result.toStringAsFixed(3) : result.toStringAsFixed(0)}',
               style: const TextStyle(
                 fontSize: 45,
                 fontWeight: FontWeight.bold,
@@ -75,7 +75,7 @@ class _CurrencyConverter extends State<CurrencyConverter> {
               child: TextButton(
                 onPressed: () {
                   setState(() {
-                    result = double.parse(textEditingController.text) * 81;
+                    result = double.parse(textEditingController.text) * 0.86;
                   });
                 },
                 style: TextButton.styleFrom(
